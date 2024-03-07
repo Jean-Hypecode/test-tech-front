@@ -7,6 +7,7 @@ import "@egjs/flicking-plugins/dist/arrow.css";
 import Flicking, { ViewportSlot } from "@egjs/react-flicking";
 import "@egjs/react-flicking/dist/flicking.css";
 import { useEffect, useState } from "react";
+import "./flicking.css";
 import styles from "./page.module.scss";
 
 const _plugins = [new Arrow()];
